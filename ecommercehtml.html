@@ -1,1 +1,151 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Dress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion Boutique</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-container">
+            <div class="product-image">
+<div class="photo-row">
+                <img src= "C:\Users\mathi\OneDrive\Desktop\dress.jpg"alt="Women's Summer Dress" id="product-img"><br>
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Casual women's full sleeve white sweatshirt</h2>
+                <p id="product-description">
+                               ultra-smooth active tee is designed for versatility, whether you're going for a jog or running errands.
+   </p>
+                <p class="price" id="product-price">₹2000</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+            <div class="product-image">
+                <img src= "C:\Users\mathi\OneDrive\Desktop\dress1.jpg"alt="Women's Summer Dress" id="product-img"><br>
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Sleeveless black bodycon dress for women</h2>
+                <p id="product-description">
+                     This stylish and sophisticated black summer dress is perfect for any occasion
+                </p>
+                <p class="price" id="product-price">₹2500</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+
+<div class="product-image">
+                <img src="C:\Users\mathi\OneDrive\Desktop\dress2.jpg" alt="Women's Summer Dress" id="product-img">
+            </div>
+            <div class="product-details">
+                <h2 id="product-title"> Women's tops and tunic</h2>
+                <p id="product-description">
+                   Embroidered Tulle Shirt with 3/4 Sleeves. Gathered high collar. Inlaid front ruffle and pleat detail. All-over appliqué embroidery. Mother-of-pearl buttons.
+                </p>
+                <p class="price" id="product-price">₹2500</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+
+<div class="product-image">
+                <img src="C:\Users\mathi\OneDrive\Desktop\dress4.jpg" alt="Women's Summer Dress" id="product-img">
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Women's partywear bodycon dress</h2>
+                <p id="product-description">
+                      This is a women's sequined long-sleeve mini dress in a rich burgundy color.                 </p>
+                <p class="price" id="product-price">₹3000</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+
+<div class="product-image">
+                <img src="C:\Users\mathi\OneDrive\Desktop\dress3.jpg" id="product-img">
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Casual women's Black dress</h2>
+                <p id="product-description">
+                              The page features a woman modeling the garment      </p>
+                <p class="price" id="product-price">₹3000</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+
+<div class="product-image">
+                <img src="C:\Users\mathi\OneDrive\Desktop\dress5.jpg" id="product-img">
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Jean flared and tie up dress</h2>
+                <p id="product-description">
+                  chic and versatile denim dress, perfect for any occasion
+                </p>
+                <p class="price" id="product-price">₹2500</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+
+
+<div class="product-image">
+                <img src="C:\Users\mathi\OneDrive\Desktop\dress6.jpg" id="product-img">
+            </div>
+            <div class="product-details">
+                <h2 id="product-title">Women's floral sweater bodycon dress</h2>
+                <p id="product-description">
+                            Long-sleeved maxi dress with a floral jacquard knit pattern      </p>
+                <p class="price" id="product-price">₹2500</p>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <button id="addToCart">Add to Cart</button>
+            </div>
+<div id="cart-message"></div>
+
+        </section>
+        <div class="review-section">
+    <h2>Customer Reviews</h2>
+    <form class="review-form" id="reviewForm">
+        <input type="text" id="reviewerName" placeholder="Your Name" required><br>
+        <textarea id="reviewText" rows="4" placeholder="Write your review here..." required></textarea><br>
+        <button type="submit">Submit Review</button>
+    </form>
+    <ul class="review-list" id="reviewList">
+        <!-- Reviews will appear here -->
+    </ul>
+</div>
+
+    </main>
+    <footer>
+        <p>© 2024 Fashion Boutique. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
